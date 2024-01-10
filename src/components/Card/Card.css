@@ -1,0 +1,25 @@
+/* Card.module.css */
+
+:root {
+    --radius: 10px;
+  }
+  
+  .card-details {
+    border: 2px solid #00040a;
+    border-radius: var(--radius);
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .card-content {
+    padding: 10px;
+  }
+  
+  .card-img {
+    border-radius: var(--radius) var(--radius) 0 0;
+  }
+  
+  .card-badge {
+    top: 10px;
+    right: 20px;
+    font-size: 17px;
+  }

@@ -1,0 +1,28 @@
+.search-input {
+  width: 40%;
+  border: 2px solid #0b5ed7;
+  /* background-color: #000000; */
+  background-color: #F5F2EB;
+  color: black;
+  border-radius: 8px;
+  box-shadow: 1px 3px 9px rgba(0, 0, 0, 0.25);
+  padding: 10px 15px;
+  outline: none;
+}
+
+.search-input:focus {
+  outline: none;
+}
+
+.search-btn {
+  box-shadow: 1px 3px 9px rgba(0, 0, 0, 0.25);
+  /* box-shadow: #04ba71; */
+  background-color: #04ba71;
+
+}
+
+@media (max-width: 576px) {
+  .search-input {
+    width: 80%;
+  }
+}
